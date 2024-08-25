@@ -15,7 +15,7 @@ public class ConsumerDemoCooperative {
     private static Logger log = LoggerFactory.getLogger(ConsumerDemoCooperative.class.getSimpleName());
 
     public static void main(String[] args) {
-        log.info("Inside ConsumerDemoCooperative");
+        log.info("***Inside ConsumerDemoCooperative***");
 
         String bootstrapServer = "localhost:9092";
         String groupId = "my-java-application";
