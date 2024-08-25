@@ -15,7 +15,7 @@ public class ConsumerDemoWithShutDown {
     private static Logger log = LoggerFactory.getLogger(ConsumerDemoWithShutDown.class.getSimpleName());
 
     public static void main(String[] args) {
-        log.info("Inside ConsumerDemoWithShutDown");
+        log.info("***Inside ConsumerDemoWithShutDown***");
 
         String bootstrapServer = "localhost:9092";
         String groupId = "my-java-application";

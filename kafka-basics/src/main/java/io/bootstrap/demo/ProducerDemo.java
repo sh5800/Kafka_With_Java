@@ -14,7 +14,7 @@ public class ProducerDemo {
     private static Logger log = LoggerFactory.getLogger(ProducerDemo.class.getSimpleName());
 
     public static void main(String[] args) {
-        log.info("Inside ProducerDemo");
+        log.info("***Inside ProducerDemo***");
 
         //create producer properties
         Properties properties = new Properties();

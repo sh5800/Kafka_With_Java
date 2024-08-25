@@ -12,7 +12,7 @@ public class ProducerDemoWithKeys {
     private static Logger log = LoggerFactory.getLogger(ProducerDemoWithKeys.class.getSimpleName());
 
     public static void main(String[] args) {
-        log.info("Inside ProducerDemoWithKeys");
+        log.info("***Inside ProducerDemoWithKeys***");
 
         //create producer properties
         Properties properties = new Properties();

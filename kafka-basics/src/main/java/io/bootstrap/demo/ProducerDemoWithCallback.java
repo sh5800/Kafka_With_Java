@@ -12,7 +12,7 @@ public class ProducerDemoWithCallback {
     private static Logger log = LoggerFactory.getLogger(ProducerDemoWithCallback.class.getSimpleName());
 
     public static void main(String[] args) {
-        log.info("Inside ProducerDemoWithCallback");
+        log.info("***Inside ProducerDemoWithCallback***");
 
         //create producer properties
         Properties properties = new Properties();
